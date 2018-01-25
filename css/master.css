@@ -48,6 +48,7 @@ h1 {
   font-family: WorksRegularItalic;
   color: lightyellow;
   white-space: nowrap;
+  line-height: 10%;
 }
 h2 {
   font-family: MonoThin;
