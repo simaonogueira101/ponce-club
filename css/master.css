@@ -1,0 +1,139 @@
+@font-face {
+    font-family: MonoBold;
+    src: url(/fonts/SuisseIntlMono-Bold-WebXL.woff2);
+}
+@font-face {
+    font-family: MonoThin;
+    src: url(/fonts/SuisseIntlMono-Thin-WebXL.woff2);
+}
+
+@font-face {
+    font-family: WorksBoldItalic;
+    src: url(/fonts/SuisseWorks-BoldItalic-WebXL.woff2);
+}
+@font-face {
+    font-family: WorksRegularItalic;
+    src: url(/fonts/SuisseWorks-RegularItalic-WebXL.woff2);
+}
+@font-face {
+    font-family: WorksRegular;
+    src: url(/fonts/SuisseWorks-Regular-WebXL.woff2);
+}
+@font-face {
+    font-family: WorksBold;
+    src: url(/fonts/SuisseWorks-Bold-WebXL.woff2);
+}
+
+* {
+  color: #202020;
+  font-family: WorksRegular;
+}
+
+::selection {
+  background: #202020;
+}
+
+body {
+  margin: 0;
+  background-color: #FAFAFA;
+}
+
+main {
+  max-width: 500px;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 5em;
+  font-family: WorksRegularItalic;
+  color: lightyellow;
+  white-space: nowrap;
+}
+h2 {
+  font-family: MonoThin;
+}
+
+h3 {
+  font-family: MonoBold;
+  font-size: 1em;
+  margin-bottom: -12px;
+}
+
+p {
+  font-family: WorksRegular;
+  font-size: 1.2em;
+}
+
+i {
+  font-family: WorksRegularItalic;
+}
+
+a {
+  font-family: MonoBold;
+}
+
+li {
+  font-family: MonoThin;
+}
+
+.crossed {
+  text-decoration: line-through;
+}
+
+.important {
+  background: #202020;
+  display: inline-block;
+}
+.important * {
+  color: #FAFAFA;
+}
+.important p {
+  font-family: MonoThin;
+  font-size: 0.8em;
+}
+
+footer {
+  background: #202020;
+  width: 100%;
+  box-sizing: border-box;
+}
+footer p {
+  font-family: MonoThin;
+  font-size: 0.8em;
+}
+footer * {
+  color: #FAFAFA;
+}
+
+
+@media screen and (max-width: 800px) {
+  main {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+  }
+  footer {
+    padding: 12px;
+  }
+  .important {
+    margin-top: 42px;
+    padding-right: 42px;
+    width: 100%
+  }
+}
+@media screen and (min-width: 800px) {
+  main {
+    padding-left: 96px;
+    padding-right: 96px;
+    padding-bottom: 96px;
+  }
+  footer {
+    padding: 96px;
+  }
+  .important {
+    margin-left: -54px;
+    margin-top: 42px;
+    padding-right: 42px;
+    width: 342px;
+  }
+}
