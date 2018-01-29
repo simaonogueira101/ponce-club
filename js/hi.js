@@ -51,5 +51,5 @@ availabe from Swisse Typefaces.
 
 Here's my favorite emoji: 🍌
 
-Up there, that's me, all in ASCII characters!`
+BTW, that's me up there.`
 , 'background: black; color: white');
