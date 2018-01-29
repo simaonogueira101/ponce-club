@@ -108,7 +108,7 @@ footer .footer-content * {
   color: #FAFAFA;
 }
 .footer-content {
-  max-width: 500px;
+  max-width: 448px;
 }
 
 
@@ -135,6 +135,8 @@ footer .footer-content * {
   }
   footer {
     padding: 96px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
   .important {
     margin-top: 42px;
