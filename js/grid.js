@@ -6,4 +6,11 @@ $(window).on('load', function() {
     transitionDuration: 0,
     gutter: 64,
   });
+  $('.main-large').masonry({
+    // options
+    itemSelector: 'section',
+    columnWidth: 550,
+    transitionDuration: 0,
+    gutter: 64,
+  });
 });
